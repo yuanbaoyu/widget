@@ -1,1 +1,1 @@
-include ':app', ':bezelimageview'
+include ':app', ':bezelimageview', ':checkableview'

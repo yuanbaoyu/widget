@@ -23,12 +23,20 @@
 
     <include layout="@layout/content_main"/>
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+    <com.xinghai.widget.checkableview.CheckableFloatingActionButton
+        android:id="@+id/add_schedule_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email"/>
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/ic_session_bookmark_fab"
+        android:visibility="visible"
+        app:backgroundTint="@color/session_details_fab"
+        app:fabSize="normal"
+        app:pressedTranslationZ="6dp"
+        app:rippleColor="@color/fab_press_ripple"
+        tools:visibility="visible" />
 
 </android.support.design.widget.CoordinatorLayout>

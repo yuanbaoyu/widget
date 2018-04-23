@@ -3,4 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="lightish_blue">#536dfe</color>
+
+    <color name="fab_not_in_schedule">@color/lightish_blue</color>
+    <color name="fab_in_schedule">@android:color/white</color>
+    <color name="fab_press_ripple">#1a000000</color>
 </resources>
